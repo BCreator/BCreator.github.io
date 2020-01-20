@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0040)http://192.168.0.43/tpj/BCreator.io.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <link rel="icon" href="https://res-1252847970.file.myqcloud.com/bcreator.io/icon.png">
     <meta name="viewport" content="width=device-width ,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>BCreator.io</title>
+</head>
 <style type="text/css">
     body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
         margin: 0;
@@ -160,59 +161,89 @@
             right: -100vw;
         }
     }
-</style></head>
-
-<body style="overflow-x: hidden">
-<div id="cover" class="cover_after" style="overflow: hidden;display:none;position: absolute;flex:1;width: 100%;height: 100%;z-index: 1;" onclick="hide()"></div>
-    <div id="hidden_body" class="hidden_body_after" style="flex: 1;overflow: scroll;display: none;flex-direction:column;align-items:center;position: fixed;right: 0;width: 75%;height: 100%;background: url(https://res-1252847970.file.myqcloud.com/bcreator.io/hidden_bg.png) repeat-y;-webkit-background-size: 100%;background-size: 100%;z-index: 2;">
-    <div style="width: 100%;height: 10%">
-        <div id="hide" style="float:right;position: relative;width: 100%;">
-            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/close.svg" width="15px" style="position: absolute;right: 9px;top:9px" onclick="hide()">
+</style>
+<body>
+<div class="container"
+     style="overflow: hidden;display:flex;flex-direction:column;position: absolute;width: 100%;height: 100%;background-size: cover;text-align: center">
+    <div id="cover" class="cover_after" style="display:none;position: fixed;width: 100%;height: 100%;z-index: 1;"
+         onclick="hide()"></div>
+    <div id="hidden_body" class="hidden_body_after"
+         style="padding-bottom: 10%;flex:1;flex-direction:column;justify-content:space-between;align-items:center;overflow: hidden;display: none;margin: 0 auto;position: fixed;right: 0;width: 75%;height: 100%;background: url(https://res-1252847970.file.myqcloud.com/bcreator.io/hidden_bg.png) repeat-y;-webkit-background-size: 100%;background-size: 100%;z-index: 2;">
+        <div style="width: 100%;">
+            <div id="hide" style="display: flex;justify-content:flex-end;width: 100%;height: 30px;">
+                <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/close.svg" width="15px" style="margin-right: 10px" onclick="hide()">
+            </div>
+            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/header-icon.png" style="width:60%;margin-top: 8%">
+        </div>
+        <!--<div style=" ">-->
+            <!--<a href="http://woxiao.net/ugc/#/blogDetail/5011198-2" style="width: 100%">-->
+                <!--<div style="font-family: 微软雅黑;border-top:1px solid #353535 ;font-size: 0.9rem;display: flex;justify-content:space-between;-->
+        <!--color:#ffffff;font-weight: 700;padding: 15px 15px 15px 25px;">-->
+                    <!--产品简介<img src="image/right_arrow.svg" style="width: 10%;height: 20px">-->
+                <!--</div>-->
+            <!--</a>-->
+            <!--<a href="http://woxiao.net/ugc/#/blogDetail/5011193-2" style="width: 100%;">-->
+                <!--<div style="font-family: 微软雅黑;border-top:1px solid #353535 ;border-bottom:1px solid #353535 ;display: flex;justify-content:space-between;-->
+        <!--color:#ffffff;font-size: 0.9rem;font-weight: 700;padding: 15px 15px 15px 25px;">-->
+                    <!--商务合作-->
+                    <!--<img src="image/right_arrow.svg" style="width: 10%;height: 20px">-->
+                <!--</div>-->
+            <!--</a>-->
+            <!--<a href="http://woxiao.net/ugc/#/blogDetail/5011179-2" style="width: 100%;">-->
+                <!--<div style="font-family: 微软雅黑;border-bottom:1px solid #353535 ;display: flex;justify-content:space-between;-->
+        <!--color:#ffffff;font-size: 0.9rem;font-weight: 700;padding: 15px 15px 15px 25px;">招贤纳士-->
+                    <!--<img src="image/right_arrow.svg" style="width: 10%;height: 20px">-->
+                <!--</div>-->
+            <!--</a>-->
+        <!--</div>-->
+        <div style="margin-bottom: 30%;margin-top: 10%">
+            <!--<a href="" style="position: absolute;bottom: 20%;width: 100%;left: 0;">-->
+            <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreatorIO.zip">
+            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_firstimage.png" style="width: 66% ">
+            </a>
+            <!--<a href="" style="position: absolute;bottom: 8%;width: 100%;left: 0;">-->
+            <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreator.io.apk" style="margin-top: 6%;width: 66%">
+                <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_secondimage.png" style="width: 66%;margin-top: 6%">
+            </a>
+            <!--</a>-->
         </div>
     </div>
-    <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/header-icon.png" style="width:60%;">
-        <div style="width: 66%;position: absolute;bottom: 20%;margin: 0 auto">
-        <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreatorIO.zip"><img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_firstimage.png" style="width: 100% "></a>
-        </div>
-        <div style="width: 66%;position: absolute;bottom: 8%;margin: 0 auto">
-        <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreator.io.apk"><img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_secondimage.png" style="width: 100%"></a>
-        </div>
-</div>
-    <div class="container" style="overflow-y: scroll;overflow-x:hidden;position: absolute;width: 100%;height: 100%;background-size: cover;text-align: center">
-        <div id="menu" style="width:100%;float:right;position: relative;z-index: 1;height: 40px;background-color:#00A7E4 ">
-            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/menu.svg" width="6%" style="float: right;position: absolute;top: 10px;right: 10px;" onclick="show()">
-        </div>
-        <div style="position:relative;width: 100%;display: flex;justify-self: center;align-items: center">
-        <video id="video" controls="controls" x5-video-player-type="h5" x5-video-player-fullscreen="true" x-webkit-airplay="true" webkit-playsinline="" playsinline="" style="position:relative;width:100%;height: 56.25vw;">
+    <div id="menu" style="width:100%;display:flex;justify-content:flex-end;height: 35px;background-color: #00A7E4">
+        <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/menu.svg" width="15px" style="margin-right: 10px" onclick="show()">
+    </div>
+    <div style="position:relative;width: 100%;display: flex;justify-self: center;align-items: center">
+        <video id="video" controls="controls" disablepictureinpicture controllslist="nodownload"
+               style="width:100%;height: 56.25vw">
             <source src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobilevideo-bg.mp4" type="video/mp4">
         </video>
-        <img id="poster" src="https://res-1252847970.file.myqcloud.com/bcreator.io/poster.jpg" style="width: 100%; position: absolute; height: 56.25vw; display: none;">
-        <img id="play" src="https://res-1252847970.file.myqcloud.com/bcreator.io/bofang.png" style="width: 15%; display: block; position: absolute; left: 43%; top: 35%; z-index: -1;" onclick="play()">
+        <div style="position: absolute;width: 100%;height:56.25vw;display: flex;justify-content: center;align-items: center">
+            <img id="poster" src="https://res-1252847970.file.myqcloud.com/bcreator.io/poster.jpg" style="height: 56.25vw;width: 100%;position: absolute" onclick="play()" >
+            <img id="play" src="https://res-1252847970.file.myqcloud.com/bcreator.io/bofang.png" style="z-index:1;width: 15%;display: block"
+                 onclick="play()">
+        </div>
     </div>
-    <div class="middle_body" style="padding-top: 30%;background-size: cover;background-image:url(https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_bg.png);background-position:center;height: 60%;align-items: center;flex-direction: column">
-        <div>
-        <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_big_icon.png" style="width:14%">
-        </div>
-        <div>
-        <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/header-icon.png" style="width:30%;margin-top: 7%">
-        </div>
-        <div style="width: 46%;margin:0 auto;margin-top: 8%;">
-        <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreatorIO.zip">
-            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_firstimage.png" style="width: 100%"></a>
-        </div>
-        <div style="width: 46%;margin:0 auto;margin-bottom:50px;margin-top: 6%;">
-        <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreator.io.apk">
-            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_secondimage.png" style="width: 100%"></a>
+    <div class="middle_body"
+         style="position:relative;padding-top:10%;padding-bottom:5%;justify-content:space-between;background-size: cover;background-image:url(https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_bg.png);background-position:left;flex: 1;display: flex;align-items: center;flex-direction: column">
+        <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/header-icon.png" style="width:65%;">
+        <div style="display: flex;flex-direction: column;align-items: center;margin-bottom:40px">
+            <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreatorIO.zip">
+            <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_firstimage.png" style="width: 46%">
+            </a>
+            <a href="https://res-1252847970.file.myqcloud.com/bcreator.io/apk/BCreator.io.apk" style="width: 46%;margin-top: 6%;">
+                <img src="https://res-1252847970.file.myqcloud.com/bcreator.io/mobile_secondimage.png"  style="width: 100%">
+            </a>
         </div>
     </div>
 </div>
 
+</body>
 <script type="text/javascript">
 
     function play() {
         document.getElementById("play").style.zIndex = "-1";
         document.getElementById("poster").style.display = "none";
         var audio = document.getElementById("video");
+        // show();
         audio.play();
     }
 
@@ -230,4 +261,4 @@
         document.getElementById("cover").style.display = "none";
     }
 </script>
-</body></html>
+</html>
